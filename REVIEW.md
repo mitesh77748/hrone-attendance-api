@@ -21,4 +21,3 @@
 | 17 | `list_attendance` | Missing page bounds, date-range validation and exact response serialization. | `page=0`, reversed dates, legacy record. | Validate; normalize missing fields and nested history times. |
 
 The starter's use of `emp_code` to look up employees and `load_dotenv()` without overriding existing environment variables were correct, so I kept those conventions.
-

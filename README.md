@@ -9,4 +9,3 @@ Python 3.11+, FastAPI, and MongoDB 6.0+.
 The OpenAPI UI is at `/docs`. Instants in requests and responses are integer epoch milliseconds. Calendar dates and shift times use IST. All endpoints in the supplied contract are implemented.
 
 For a local smoke test, create an employee through `POST /employees`, punch in, and punch out. An actual MongoDB server is required for aggregation and concurrency checks.
-

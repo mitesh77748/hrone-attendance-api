@@ -535,4 +535,3 @@ def explain_endpoint(endpoint: Literal["attendance_list", "employee_monthly", "d
     from bson.json_util import dumps
     import json
     return {"endpoint": endpoint, "collection": collection, "explain": json.loads(dumps(result))}
-

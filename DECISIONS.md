@@ -9,4 +9,3 @@
 4. **Headcount.** The summary begins with `employees`, filters by `joined_on`, and looks up each person's logs. Thus employees with no records remain in the department group.
 
 5. **At 100x scale.** I would benchmark `explain` plans and partition or preaggregate historical monthly metrics, while keeping current records and their audit trail authoritative.
-
